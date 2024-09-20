@@ -110,6 +110,7 @@ public class AddressManager {
 		for(int i=0; i<this.USER_COUNT; i++) {
 			if(userList[i].isLogin()) {
 				userList[i].logout();
+				break;
 			}
 		}
 	}
